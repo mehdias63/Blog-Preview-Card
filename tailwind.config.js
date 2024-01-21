@@ -1,15 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
       fig: ["Figtree"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        "dark-yellow": "#F4D04E",
+      },
+    },
   },
   plugins: [],
-}
-
+};
