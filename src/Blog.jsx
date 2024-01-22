@@ -5,7 +5,7 @@ export default function Blog() {
     <div className="w-[20.4375rem] lg:w-[24rem] bg-white p-6 rounded-2xl border-2 border-black border-solid font-fig shadow-[8px_8px_0_0_#000] lg:shadow-[16px_16px_0_0_#000]">
       <div>
         <img
-          src="../public/images/illustration-article.svg"
+          src="/images/illustration-article.svg"
           className="rounded-xl"
         />
         <button
@@ -26,7 +26,7 @@ export default function Blog() {
         </p>
       </div>
       <div className="flex items-center gap-4">
-        <img src="../public/images/image-avatar.webp" className="w-8" />
+        <img src="/images/image-avatar.webp" className="w-8" />
         <h3 className="font-extrabold text-[0.875rem] leading-[1.3125rem]">
           Greg Hooper
         </h3>
