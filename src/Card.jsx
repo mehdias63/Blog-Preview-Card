@@ -7,6 +7,7 @@ export default function Blog() {
         <img
           src="/images/illustration-article.svg"
           className="rounded-xl"
+          alt="illustration"
         />
         <button
           className="bg-dark-yellow py-1 px-4 text-xs font-extrabold rounded-[4px] mt-6 mb-4
@@ -20,13 +21,13 @@ export default function Blog() {
         <h1 className="font-extrabold text-xl my-4 hover:text-dark-yellow cursor-pointer lg:text-2xl lg:leading-9">
           HTML & CSS foundations
         </h1>
-        <p className="font-medium text-[0.875rem] text-[#7F7F7F] leading-[1.3125rem] mb-6 lg:text-base lg:leading-6">
+        <p className="font-medium text-[0.875rem] text-gray leading-[1.3125rem] mb-6 lg:text-base lg:leading-6">
           These languages are the backbone of every website, defining structure,
           content, and presentation.
         </p>
       </div>
       <div className="flex items-center gap-4">
-        <img src="/images/image-avatar.webp" className="w-8" />
+        <img src="/images/image-avatar.webp" className="w-8" alt="avatar" />
         <h3 className="font-extrabold text-[0.875rem] leading-[1.3125rem]">
           Greg Hooper
         </h3>
