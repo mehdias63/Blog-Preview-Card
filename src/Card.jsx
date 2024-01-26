@@ -28,9 +28,9 @@ export default function Blog() {
       </div>
       <div className="flex items-center gap-4">
         <img src="/images/image-avatar.webp" className="w-8" alt="avatar" />
-        <h3 className="font-extrabold text-[0.875rem] leading-[1.3125rem]">
+        <p className="font-extrabold text-[0.875rem] leading-[1.3125rem]">
           Greg Hooper
-        </h3>
+        </p>
       </div>
     </div>
   );
